@@ -5,6 +5,10 @@
         <title>Update</title>
     </head>
     <body>
+    	<form action="{% url 'restaurant-update' restaurant.id %}" method="POST">
+    		{{form}}
+    		<input type="submit" name="">
+    	</form>		
 
     </body>
 </html>
